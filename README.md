@@ -1,3 +1,3 @@
-# Valorant
+# non-commercial Valorant page
 
-# non-commercial project
+
