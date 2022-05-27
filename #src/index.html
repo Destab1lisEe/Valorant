@@ -1,0 +1,73 @@
+
+@@include('components/general/_head.html',{
+"title":"Ninja Gulp Template"
+})
+<div class="wrapper">
+	<main class="page">
+		<section class="hero-section">
+			<div class="hero-section__bg bg-left">
+				<img src="img/red-сircle-bg-small.svg" alt="">
+			</div>
+			<div class="hero-section__bg bg-right">
+				<img src="img/bg-right.svg" alt="">
+			</div>
+			<div class="container">
+				@@include('components/general/_header.html',{})
+				<div class="hero-section__content">
+					<div class="hero-section__logo">
+						<img src="img/hero-logo.svg" alt="">
+					</div> 
+					<div class="hero-section__agents">
+						<h2>AGENTS</h2>
+						<img src="img/champ1.png" alt="">
+						<img src="img/champ2.png" alt="">
+						<img src="img/champ3.png" alt="">
+						<img src="img/champ4.png" alt="">
+					</div>
+					<div class="hero-section__skills">
+						<div class="hero-section__skill-item-wrapper">
+							<div class="hero-section__skills-item">
+								<div class="hero-section__skills-content">
+									<h3>BASIC</h3>
+									<h4>Slow Orb</h4>
+									<p>Cast out a radianite orb that breaks into a slowing field upon impact with the ground.</p>
+								</div>
+								<img src="img/skill1.svg" alt="">
+							</div>
+						</div>
+						<div class="hero-section__skill-item-wrapper">
+							<div class="hero-section__skills-item">
+								<div class="hero-section__skills-content">
+									<h3>SIGNATURE</h3>
+									<h4>Healing Orb</h4>
+									<p>Heal an ally or yourself to full health over a few seconds.</p>
+								</div>
+								<img src="img/skill2.svg" alt="">
+							</div>
+						</div>
+						<div class="hero-section__skill-item-wrapper">
+							<div class="hero-section__skills-item">
+								<div class="hero-section__skills-content">
+									<h3>ULTIMATE</h3>
+									<h4>Resurrection</h4>
+									<p>Target a friendly corpse. After a short delay, revive them with full health.</p>
+								</div>
+								<img src="img/skill3.svg" alt="">
+							</div>
+						</div>		
+							<div class="hero-section__skills-item last-item">
+								<img src="img/game-logo.svg" alt="">
+							</div>
+					</div>
+					<div class="hero-section__white-padding"></div>	
+				</div>
+			</div>
+			<div class="hero-section__bg bottom-bg-left">
+				<img src="img/bg-bottom-left.svg" alt="">
+			</div>
+			<div class="hero-section__bg bottom-bg-right">
+				<img src="img/bg-bottom-right.svg" alt="">
+			</div>
+		</section>
+	</main>
+@@include('components/general/_footer.html',{})
