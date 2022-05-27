@@ -1,3 +1,0 @@
-# non-commercial Valorant page
-
-
